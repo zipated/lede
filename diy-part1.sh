@@ -19,7 +19,7 @@ git clone https://github.com/openwrt-dev/po2lmo.git
 pushd po2lmo
 make && sudo make install
 popd
-git clone src-git kenzo https://github.com/kenzok8/openwrt-packages package/kenzok8
+git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
 git clone https://github.com/kenzok8/small.git package/small
 git clone https://github.com/BoringCat/minieap-openwrt.git package/minieap
 git clone https://github.com/BoringCat/luci-app-minieap.git package/luci-app-minieap
